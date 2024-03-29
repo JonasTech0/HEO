@@ -239,7 +239,7 @@ if (true) {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
       envId: 'https://twikoo.jonastech.cc/',
-      region: '',
+      region: 'https://twikoo.jonastech.cc/',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       }
@@ -256,7 +256,7 @@ if (true) {
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'https://twikoo.jonastech.cc/',
-      region: '',
+      region: 'https://twikoo.jonastech.cc/',
       urls: [window.location.pathname],
       includeReply: false
     }).then(res => {
@@ -298,7 +298,7 @@ if (true) {
     const runTwikoo = () => {
       twikoo.getRecentComments({
         envId: 'https://twikoo.jonastech.cc/',
-        region: '',
+        region: 'https://twikoo.jonastech.cc/',
         pageSize: 6,
         includeReply: true
       }).then(function (res) {

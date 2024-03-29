@@ -240,13 +240,13 @@ if (true) {
         <span class="tagsPageCount">6</span>
       </a>
     
-      <a href="/categories/TBug/" id="/categories/TBug/">
-        <span class="tags-punctuation">#</span>TBug
+      <a href="/categories/剪辑后期/" id="/categories/剪辑后期/">
+        <span class="tags-punctuation">#</span>剪辑后期
         <span class="tagsPageCount">1</span>
       </a>
     
-      <a href="/categories/剪辑后期/" id="/categories/剪辑后期/">
-        <span class="tags-punctuation">#</span>剪辑后期
+      <a href="/categories/TBug/" id="/categories/TBug/">
+        <span class="tags-punctuation">#</span>TBug
         <span class="tagsPageCount">1</span>
       </a>
     
@@ -264,7 +264,7 @@ if (true) {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
       envId: 'https://twikoo.jonastech.cc/',
-      region: '',
+      region: 'https://twikoo.jonastech.cc/',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       }
@@ -281,7 +281,7 @@ if (true) {
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'https://twikoo.jonastech.cc/',
-      region: '',
+      region: 'https://twikoo.jonastech.cc/',
       urls: [window.location.pathname],
       includeReply: false
     }).then(res => {
@@ -323,7 +323,7 @@ if (true) {
     const runTwikoo = () => {
       twikoo.getRecentComments({
         envId: 'https://twikoo.jonastech.cc/',
-        region: '',
+        region: 'https://twikoo.jonastech.cc/',
         pageSize: 6,
         includeReply: true
       }).then(function (res) {
