@@ -13,7 +13,7 @@ gtag('config', 'G-SCF31NV05D');
   diytitle: {"enable":true,"leaveTitle":"JonasTech.cc","backTitle":"欢迎回来👏继续阅读"},
   LA51: {"enable":true,"ck":"3Hp2Kvi3RkL73Zr9","LingQueMonitorID":"3Hp2Tei1aZ5x1kb3"},
   greetingBox: undefined,
-  twikooEnvId: 'https://twikoo.jonastech.cc',
+  twikooEnvId: 'https://twikoo.laogou717.com',
   commentBarrageConfig:{"enable":true,"maxBarrage":2,"barrageTime":4000,"accessToken":"0ccd6cf39295dd5f04516260234841a1","mailMd5":"e3b0c44298fc1c149afbf4c8996fb924"},
   music_page_default: undefined,
   root: '/',
@@ -217,13 +217,13 @@ if (true) {
         <span class="tagsPageCount">6</span>
       </a>
     
-      <a href="/categories/剪辑后期/" id="/categories/剪辑后期/">
-        <span class="tags-punctuation">#</span>剪辑后期
+      <a href="/categories/TBug/" id="/categories/TBug/">
+        <span class="tags-punctuation">#</span>TBug
         <span class="tagsPageCount">1</span>
       </a>
     
-      <a href="/categories/TBug/" id="/categories/TBug/">
-        <span class="tags-punctuation">#</span>TBug
+      <a href="/categories/剪辑后期/" id="/categories/剪辑后期/">
+        <span class="tags-punctuation">#</span>剪辑后期
         <span class="tagsPageCount">1</span>
       </a>
     
@@ -245,7 +245,7 @@ if (true) {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://twikoo.jonastech.cc',
+      envId: 'https://twikoo.laogou717.com',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -262,7 +262,7 @@ if (true) {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://twikoo.jonastech.cc',
+      envId: 'https://twikoo.laogou717.com',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -304,7 +304,7 @@ if (true) {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://twikoo.jonastech.cc',
+        envId: 'https://twikoo.laogou717.com',
         region: '',
         pageSize: 6,
         includeReply: true
