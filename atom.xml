@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jonas</title>
+  
+  <subtitle>热爱生活,追逐梦想</subtitle>
+  <link href="http://jonastech.cc/atom.xml" rel="self"/>
+  
+  <link href="http://jonastech.cc/"/>
+  <updated>2024-04-07T06:35:44.860Z</updated>
+  <id>http://jonastech.cc/</id>
+  
+  <author>
+    <name>JonasTech</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>两个免费无限制使用ChatGPT模型API！</title>
+    <link href="http://jonastech.cc/2024/04/06/AI%20era/Freegpt35/"/>
+    <id>http://jonastech.cc/2024/04/06/AI%20era/Freegpt35/</id>
+    <published>2024-04-06T14:55:00.000Z</published>
+    <updated>2024-04-07T06:35:44.860Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote><p>OpenAI开放了免登录聊天的功能之后,<strong>FreeGPT35-Vercel</strong> 和 <strong>AURORA</strong> 两个开源项目应运而生。<br><strong>FreeGPT35-Vercel</strong> 项目利用 Vercel 平台，可以让您一键部署免费的 GPT-3.5 接口，无需登录或注册。<br><strong>AURORA</strong> 项目则提供了更加丰富的功能和设置，支持多种部署方式，满足不同用户的个性化需求。同时带有简单的前端面板。<img class="inline-img" src="https://img.laogou717.com/file/2666f3fae8ea44f8f9f7c.png" style="height:30px"/></p></blockquote><h2 id="FreeGPT35-Vercel-简介"><a href="#FreeGPT35-Vercel-简介" class="headerlink" title="FreeGPT35-Vercel 简介"></a>FreeGPT35-Vercel 简介</h2><p><strong>FreeGPT35-Vercel</strong>利用Vercel平台的强大功能，允许用户一键部署GPT-3.5接口，免去了繁琐的登录或注册流程。项目的高光特点包括：</p><ul><li><strong>简易部署</strong>：通过<a href="https://vercel.com/new/clone?repository-url=https://github.com/cliouo/FreeGPT35-Vercel">一键部署到Vercel平台</a>，您可以轻松启动自己的GPT-3.5服务。</li><li><strong>自定义访问</strong>：用户可以设置自己的域名，方便地访问部署的接口。</li><li><strong>环境变量配置</strong>：通过设置<code>AUTH_TOKEN</code>环境变量，您将获得一个独特的API密钥，保障了访问的安全性。</li></ul><p><img src="https://img.laogou717.com/file/135aabe589869d625f0fa.png"></p><h2 id="AURORA-简介"><a href="#AURORA-简介" class="headerlink" title="AURORA 简介"></a>AURORA 简介</h2><p>与FreeGPT35-Vercel项目相比，<strong>AURORA</strong>提供了更多的功能和部署选项，满足了不同用户的个性化需求。其特点包括：</p><ul><li><strong>多元化部署</strong>：支持包括编译部署、Docker部署在内的多种方式，为用户提供了广泛的选择空间。</li><li><strong>丰富的部署平台</strong>：除了传统的Docker和Render，AURORA还支持Koyeb、Railway等新兴的云平台，给用户提供了更多的灵活性。</li><li><strong>前端面板支持</strong>：AURORA带有简洁明了的前端面板，使用户能够更加便捷地管理和使用服务。</li></ul><blockquote><p>由于<strong>DockerRender部署过于繁琐</strong>,同时被官网所限制,因此我们可以选择时用<strong>Koyeb</strong>、<strong>Railway</strong>、<strong>huggingface</strong>等部署方式。</p></blockquote><h3 id="Vercel、Zeabur部署"><a href="#Vercel、Zeabur部署" class="headerlink" title="Vercel、Zeabur部署"></a>Vercel、Zeabur部署</h3><p>由于vercel不支持流式，如果在vercel部署请在STREAM_MODE中填False，不支持任何默认流式的客户端，支持沉浸式翻译。</p><p><a href="https://vercel.com/new/clone?repository-url=https://github.com/aurora-develop/aurora&env=STREAM_MODE&project-name=aurora&repository-name=aurora"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a><br><a href="https://zeabur.com/templates/JF3EFW"><img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur"></a></p><h3 id="Koyeb部署"><a href="#Koyeb部署" class="headerlink" title="Koyeb部署"></a>Koyeb部署</h3><p>地区选美国<br><a href="https://app.koyeb.com/deploy?type=docker&name=aurora&ports=8080;http;/&image=ghcr.io/aurora-develop/aurora"><img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb"></a><br><img src="https://img.laogou717.com/file/c187611f850351814d932.png"></p><h3 id="RaiLway部署"><a href="#RaiLway部署" class="headerlink" title="RaiLway部署"></a>RaiLway部署</h3><p><a href="https://railway.app/template/jcl2Es?referralCode=XXqY_5"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a><br><img src="https://img.laogou717.com/file/dd9a3b3838d49cbd7a5cc.png" alt="Railway"></p><h3 id="huggingface部署"><a href="#huggingface部署" class="headerlink" title="huggingface部署"></a>huggingface部署</h3><p>以下镜像来自群友:早起的虫被鸟吃<br><a href="https://huggingface.co/spaces/ykl45/aa">一键克隆镜像</a><br><img src="https://img.laogou717.com/file/6065b9135a26a7ef427da.png" alt="huggingface"></p><h3 id="访问Web端"><a href="#访问Web端" class="headerlink" title="访问Web端"></a>访问Web端</h3><p>访问 http:&#x2F;&#x2F;你的服务器ip:8080&#x2F;web 即可 在web设置页面的填写服务器的http:&#x2F;&#x2F;你的服务器ip:8080</p><p><strong>注：仅ip属地支持免登录使用ChatGpt可以使用(也可以自定义Baseurl来绕过限制)</strong></p><h3 id="AURORA环境变量"><a href="#AURORA环境变量" class="headerlink" title="AURORA环境变量"></a>AURORA环境变量</h3><table><thead><tr><th>环境变量名</th><th>描述</th></tr></thead><tbody><tr><td>BASE_URL</td><td>设置代理网关的URL，所有请求将通过这个网关转发。例如，<code>https://auroraxf.glitch.me/api</code>表示所有的API请求都将通过这个地址进行转发。</td></tr><tr><td>Authorization</td><td>用于用户认证的key。在发送请求时，这个key将用于验证用户的身份，确保请求的合法性。</td></tr><tr><td>TLS_CERT</td><td>指向TLS证书的路径。这个证书用于HTTPS通信，保证数据传输的安全。</td></tr><tr><td>TLS_KEY</td><td>指向TLS密钥的路径。这个密钥与TLS证书配合使用，用于加密通信，保护数据传输过程中的隐私和完整性。</td></tr><tr><td>PROXY_URL</td><td>设置代理池的URL。通过使用代理池，可以改变请求的来源IP地址，用于绕过IP限制或增强隐私保护。</td></tr></tbody></table><h2 id="其他前端UI"><a href="#其他前端UI" class="headerlink" title="其他前端UI"></a>其他前端UI</h2><ul><li><a href="https://github.com/lobehub/lobe-chat">Lobe-Chat</a></li></ul><p><img src="https://img.laogou717.com/file/178405f4cacdf8a484481.png" alt="Lobe-Chat"><br><img src="https://img.laogou717.com/file/b76c228eb67c780c8e7b9.png" alt="Lobe-Chat"></p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul><li><strong>FreeGPT35-Vercel 项目地址:</strong> <a href="https://github.com/cliouo/FreeGPT35-Vercel">https://github.com/cliouo/FreeGPT35-Vercel</a></li><li><strong>AURORA 项目地址:</strong> <a href="https://github.com/aurora-develop/aurora">https://github.com/aurora-develop/aurora</a></li></ul><blockquote><p>如果对您有所帮助,希望各位不要吝啬手里的点赞🎉</p></blockquote>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;OpenAI开放了免登录聊天的功能之后,&lt;strong&gt;FreeGPT35-Vercel&lt;/strong&gt; 和</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>🔥每天签到领取免费GPT4、Claude3免费API！</title>
+    <link href="http://jonastech.cc/2024/04/06/AI%20era/freeAPI/"/>
+    <id>http://jonastech.cc/2024/04/06/AI%20era/freeAPI/</id>
+    <published>2024-04-05T16:55:00.000Z</published>
+    <updated>2024-04-11T02:18:57.505Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><blockquote><p>OpenAI 接口转发站<br> <strong>正规渠道，稳定使用</strong>，所有模型均支持高并发<br> 支持 OpenAI <strong>大部分模型</strong><br> 如遇问题可以在 <a href="https://github.com/BurnHair/issues">GitHub</a> 上提issue</p></blockquote><hr><h2 id="使用指南"><a href="#使用指南" class="headerlink" title="使用指南"></a>使用指南</h2><h3 id="进入网站"><a href="#进入网站" class="headerlink" title="进入网站"></a>进入网站</h3><div class="site-card-group"><a class="site-card" href="https://burn.hair/register?aff=9iZ5" data-title=GPT4、Claude3免费API><div class="wrapper cover"><img class="cover fadeIn" src="https://img.laogou717.com/file/d72147cc06ba5fa8b1014.png"/></div><div class="info"><img class="flink-avatar" src="https://img.laogou717.com/file/4027f20df6d43627977a0.png"/><span class="site-title">头顶冒火</span></div></a></div><h3 id="GitHub-登录与令牌创建"><a href="#GitHub-登录与令牌创建" class="headerlink" title="GitHub 登录与令牌创建"></a>GitHub 登录与令牌创建</h3><p>为了使用本服务，您需要通过以下步骤获取和使用 GitHub 登录及创建令牌：</p><ol><li><strong>GitHub 登录：</strong> 确保您已拥有一个 GitHub 账号；如果没有，您可以轻松地在 <a href="https://github.com/">GitHub 官网</a> 注册一个。</li><li><strong>创建令牌：</strong> 登录后，在设置区域寻找到“令牌”或“API Tokens”的部分，并选择“添加新的令牌”来创建一个新的 API 令牌。<br><img src="https://img.laogou717.com/file/f7680e87426e17deb2d56.png"></li><li><strong>复制令牌：</strong> 令牌创建后，请确保复制您的令牌（Token），以便在 API 请求中使用。<br><img src="https://img.laogou717.com/file/2b28f77c30777b5d24363.png"></li></ol><h3 id="API-调用示例"><a href="#API-调用示例" class="headerlink" title="API 调用示例"></a>API 调用示例</h3><p>要通过 API 与服务进行交云，您需要准备适当的请求，这包括设置请求头和请求体：</p><ul><li><strong>接口 URL:</strong> <code>https://burn.hair/v1/chat/completions</code></li><li><strong>请求头:</strong> 应包括 <code>Authorization: Bearer sk-您的令牌</code>，以便系统验证您的请求。</li><li><strong>请求体示例:</strong></li></ul><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;model&quot;</span><span class="punctuation">:</span> <span class="string">&quot;gpt-3.5-turbo&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;messages&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;role&quot;</span><span class="punctuation">:</span> <span class="string">&quot;user&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;重复我说的话：我是我，你是你。&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;temperature&quot;</span><span class="punctuation">:</span> <span class="number">0.7</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><p>请根据需要替换模型名称或调整请求体的其他参数。</p><h3 id="Claude-模型支持"><a href="#Claude-模型支持" class="headerlink" title="Claude 模型支持"></a>Claude 模型支持</h3><p>本服务同时支持 Claude 模型，您可以按照如下格式进行调用：</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;model&quot;</span><span class="punctuation">:</span> <span class="string">&quot;claude-3-opus-20240229&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;max_tokens&quot;</span><span class="punctuation">:</span> <span class="number">1024</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;messages&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span><span class="attr">&quot;role&quot;</span><span class="punctuation">:</span> <span class="string">&quot;user&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Hello, world&quot;</span><span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><h3 id="签到及充值"><a href="#签到及充值" class="headerlink" title="签到及充值"></a>签到及充值</h3><ul><li><strong>签到:</strong> 您可以通过网站或机器人进行签到，机器人签到可能会获得额外奖励。</li><li><strong>充值:</strong> 访问指定的充值页面进行兑换码购买，并通过支持的支付方式完成交易。购买后，使用获得的兑换码在充值页面进行激活。<br><img src="https://img.laogou717.com/file/4091ea7303706de9c74b2.png"></li></ul><h3 id="Midjourney-支持"><a href="#Midjourney-支持" class="headerlink" title="Midjourney 支持"></a>Midjourney 支持</h3><ul><li>目前，本服务尚不支持 Midjourney 模型。</li></ul><h3 id="模型变化解释"><a href="#模型变化解释" class="headerlink" title="模型变化解释"></a>模型变化解释</h3><ul><li>如果您发现日志中模型名称频繁变动，这可能是因为您使用的是 NextChat 功能，它会根据需要自动选择最合适的模型进行响应。</li></ul><hr><h1 id="文章参考"><a href="#文章参考" class="headerlink" title="文章参考"></a>文章参考</h1><ul><li><a href="https://burn.hair/">https://burn.hair</a></li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;OpenAI 接口转发站&lt;br&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>超低价升级开通GPT4、Claude、MJ等服务!</title>
+    <link href="http://jonastech.cc/2024/03/17/AI%20era/GPTPLUS/GPT4/"/>
+    <id>http://jonastech.cc/2024/03/17/AI%20era/GPTPLUS/GPT4/</id>
+    <published>2024-03-16T16:55:00.000Z</published>
+    <updated>2024-04-03T08:17:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-WebDesktop/GPT.jpg"></p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>一路走来，感谢大家的支持和鼓励！🙏 FOME Pay 在更新之际，给予了我合作的机会，现在，我想我终于可以为大家带来专属优惠了，助你以更低的成本享受它。</p><h2 id="专属优惠口令功能介绍"><a href="#专属优惠口令功能介绍" class="headerlink" title="专属优惠口令功能介绍"></a>专属优惠口令功能介绍</h2><p>FOME Pay 官方最近推出了一项新功能——<strong>优惠口令</strong>，这允许新用户通过输入我分享的特定口令来领取开卡优惠券，优惠金额从 <strong>1 到 5 美元</strong> 不等。</p><p>得坦白告诉大家，通过我的口令成功开卡，我会获得一定的返佣金💰。就像你们在 B 站看到的推广内容一样，我的专属口令既可以让你们获得优惠，也能让我得到一点小回报——比如，当我口令只优惠 1 美元时，给我的佣金可以让我能买到一桶泡面加个鸡蛋🍜，或者在优惠 5 美元时，我也能得到 3 块钱的佣金，足够我享受一瓶饮料了🥤。</p><p>当然这个机会并不是每个博主都有的，幸好我有！我也一直希望能做到这一点——既让有意向的粉丝们省下一笔钱，也能让我得到一杯饮料的小快乐😆。</p><p>如果你介意我从中获得的那杯饮料，完全可以考虑其他选项。目前，我持有<strong>100 个优惠口令名额</strong>，用完后优惠将会重新变为 2 美元的优惠。我不希望大家因为信息不对称而感到损失或猜疑，这也是为什么我要这么坦白和大家分享这些信息。</p><h3 id="如何领取和使用优惠券"><a href="#如何领取和使用优惠券" class="headerlink" title="如何领取和使用优惠券"></a>如何领取和使用优惠券</h3><ol><li><p><strong>领取优惠券</strong>：点击我的分享链接注册，然后在指定位置输入我的专属优惠口令<code>神烦老狗</code>。<br><img src="https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202402292039667.png" alt="通过我的分享链接进行注册账号"><br><img src="https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202402292038508.png" alt="然后在口令这里填写我的专属口令"></p><ul><li>注册链接：<a href="https://lg717.fomecard.top/register?rc=X78200">https://lg717.fomecard.top/register?rc=X78200</a></li><li>专属优惠口令：<code>神烦老狗</code></li><li>注意：必须通过我的链接注册才能领取优惠🎁。</li></ul></li><li><p><strong>使用时限</strong>：优惠券领取后有 48 小时的使用期限，请在此期间完成开卡操作。</p></li><li><p><strong>问题答疑</strong>：遇到任何问题，请及时联系客服反馈。作为消费者，这是我们应有的权利。</p></li></ol><h3 id="佣金制度和优惠策略"><a href="#佣金制度和优惠策略" class="headerlink" title="佣金制度和优惠策略"></a>佣金制度和优惠策略</h3><p>我仔细考虑后，决定尽可能为大家争取最大的优惠。虽然这意味着我个人的佣金会有所减少，但能帮到大家，我觉得很值得。</p><h2 id="为什么选择使用我的专属优惠"><a href="#为什么选择使用我的专属优惠" class="headerlink" title="为什么选择使用我的专属优惠"></a>为什么选择使用我的专属优惠</h2><ul><li><strong>最大化节省</strong>：通过我的链接和优惠码购买，确保你能享受到 FOME Pay 官方的最大优惠💸。</li><li><strong>信任和保障</strong>：作为合作伙伴，我确保这些优惠信息是准确且可靠的。择日我也会发布视频演示，让你们有更直观的了解。</li><li><strong>专属内容和支持</strong>：使用我的优惠码，你还将获得我提供的额外支持和资源，包括 AI 产品的使用技巧和教程📚,毕竟谁能拒绝一瓶饮料呢。</li></ul><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>我一直相信，技术的力量应该是普惠的。门槛也不应该是遥不可及的，希望通过这次活动，能帮助更多人了解这方面的内容。如果你对 AI 产品有疑问或需要帮助，随时欢迎<a href="https://www.laogou666.com/LGQandA-01">点击这里联系我</a>🤝。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-WebDesktop/GPT.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>国内访问不了Vercel上绑定的域名?试试这个吧!</title>
+    <link href="http://jonastech.cc/2024/03/01/AI%20era/deploy/Vercel/"/>
+    <id>http://jonastech.cc/2024/03/01/AI%20era/deploy/Vercel/</id>
+    <published>2024-02-29T23:09:04.189Z</published>
+    <updated>2024-04-07T02:09:11.920Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/laogou717/IMG/main/LAOGOU/997771ac87cfc28505595c6f00f539f7ce8feced-1200x675.jpg" alt="国内访问不了Vercel上绑定的域名?试试这个吧!"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">域名的可访问性对于保障信息流通至关重要。Vercel 面临的一个问题是，</span><br><span class="line">由于中国大陆的特定网络政策，使得 vercel.com 和 vercel.app 域在中国大陆地区无法访问。</span><br></pre></td></tr></table></figure><h2 id="处理方案"><a href="#处理方案" class="headerlink" title="处理方案"></a>处理方案</h2><h3 id="调整-A-记录"><a href="#调整-A-记录" class="headerlink" title="调整 A 记录"></a>调整 A 记录</h3><ul><li>请将您的 A 记录的 IP 地址从<code>76.76.21.21</code> 更改为顶级域DNS<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">76.223.126.88</span><br></pre></td></tr></table></figure></li><li>这一更改是通过另一条网络路径来重定向流量，从而绕过现有的访问障碍。</li></ul><h3 id="更新-CNAME-记录"><a href="#更新-CNAME-记录" class="headerlink" title="更新 CNAME 记录"></a>更新 CNAME 记录</h3><ul><li><p>尽管Vercel在最新公告中宣告影响 CNAME 记录的问题已经得到解决，但还是仍然建议将 CNAME 记录从 <code>cname.vercel-dns.com</code>更改为二级域DNS</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cname-china.vercel-dns.com</span><br></pre></td></tr></table></figure></li><li><p>这一更改不仅确保了持续的访问能力，而且提供了额外的冗余性，增强了您的域名抵御未来可能出现中断的能力。</p></li></ul><h3 id="在域名注册商处添加记录"><a href="#在域名注册商处添加记录" class="headerlink" title="在域名注册商处添加记录"></a>在域名注册商处添加记录</h3><ul><li>登录您的域名注册商管理控制台。以cloudflare举例</li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/5cfe1fb3de8082b83245fb9258c91ef4042d5235-2712x1292.png&w=3840&q=75" alt="cf主页"></p><p>主页选中激活的域</p><ul><li>找到更新 DNS 记录的部分。</li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/0f83042881beed3694eec3283da0b97240e38b17-510x1060.png&w=1080&q=75" alt="dns"></p><p>左侧找到DNS服务</p><ul><li>修改 A 记录，指向 <code>76.223.126.88</code></li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/406eabf252419c67dcbbffbc85e3ea7744b2c920-2462x1128.png&w=3840&q=75" alt="A记录"></p><p>A记录</p><ul><li>将 CNAME 记录修改为 <code>cname-china.vercel-dns.com</code></li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/f9a9d2b7f63806c4f6f780f9696b4380157e0dfc-2462x1124.png&w=3840&q=75" alt="二级域"></p><p>二级域</p><ul><li>通过上述步骤，即使在中国大陆这样的特殊网络环境下，您的网站也能保持正常的访问和运行。建议您尽早完成这些更改，以确保服务不受影响😄。</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/laogou717/IMG/main/LAOGOU/997771ac87cfc28505595c6f00f539f7ce8feced-1200x675.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="http://jonastech.cc/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一行代码本地运行 AI 模型</title>
+    <link href="http://jonastech.cc/2024/02/27/AI%20era/deploy/One-Code/"/>
+    <id>http://jonastech.cc/2024/02/27/AI%20era/deploy/One-Code/</id>
+    <published>2024-02-27T00:45:48.976Z</published>
+    <updated>2024-02-27T00:47:02.527Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png" alt="一行代码本地运行 AI 模型"></p><h2 id="Ollama"><a href="#Ollama" class="headerlink" title="Ollama"></a>Ollama</h2><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/20240227163844.png"></p><blockquote><p>一行代码下载运行模型</p></blockquote><ul><li><a href="https://ollama.com/">https://ollama.com</a></li></ul><h3 id="Ollama-运行代码"><a href="#Ollama-运行代码" class="headerlink" title="Ollama 运行代码"></a>Ollama 运行代码</h3><ol><li><strong>运行并与 Llama 2 交互：</strong></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ollama run llama2</span><br></pre></td></tr></table></figure><ol start="2"><li><strong>模型库：</strong></li></ol><p>Ollama 支持一系列模型，可以在 [invalid URL removed] 下载。</p><ol start="3"><li><strong>自定义模型：</strong></li></ol><ul><li><p><strong>从 GGUF 导入：</strong></p><ol><li>创建名为 <code>Modelfile</code> 的文件，其中包含 <code>FROM</code> 指令，指定要导入的模型的本地文件路径。</li><li>创建模型： <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ollama create example -f Modelfile</span><br></pre></td></tr></table></figure></li><li>运行模型： <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ollama run example</span><br></pre></td></tr></table></figure></li></ol></li><li><p><strong>从 PyTorch 或 Safetensors 导入：</strong></p><p>  请参阅导入模型的 指南：URL ollama import model ON Hugging Face ollama.ai 了解更多信息。</p></li></ul><ol start="4"><li><strong>自定义提示：</strong></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">ollama pull llama2</span><br><span class="line"></span><br><span class="line"># 创建 Modelfile</span><br><span class="line">FROM llama2</span><br><span class="line"></span><br><span class="line"># 设置温度 (越高越具创意，越低越连贯)</span><br><span class="line">PARAMETER temperature 1</span><br><span class="line"></span><br><span class="line"># 设置系统消息</span><br><span class="line">SYSTEM &quot;&quot;&quot;</span><br><span class="line">你是超级马里奥兄弟中的马里奥。仅以助手身份回答，就像马里奥一样。</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line"># 创建并运行模型</span><br><span class="line">ollama create mario -f ./Modelfile</span><br><span class="line">ollama run mario</span><br><span class="line">&gt;&gt;&gt; hi</span><br><span class="line">你好！我是你的朋友马里奥。</span><br></pre></td></tr></table></figure><h2 id="LMStudio"><a href="#LMStudio" class="headerlink" title="LMStudio"></a>LMStudio</h2><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/20240227163401.png"></p><blockquote><p>无需代码下载运行模型，自带聊天页面</p></blockquote><ul><li><a href="https://lmstudio.ai/">https://lmstudio.ai</a></li></ul><h2 id="Open-WebUI"><a href="#Open-WebUI" class="headerlink" title="Open WebUI"></a>Open WebUI</h2><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/20240227164346.png"></p><blockquote><p>前端页面</p></blockquote><p><a href="https://github.com/open-webui/open-webui">https://github.com/open-webui/open-webui</a></p><h3 id="docker-拉取并链接本地-Ollama"><a href="#docker-拉取并链接本地-Ollama" class="headerlink" title="docker 拉取并链接本地 Ollama"></a>docker 拉取并链接本地 Ollama</h3><p> **使用 Docker 快速启动 **</p><p>使用 Docker 安装 Open WebUI 时，请务必在 Docker 命令中包含 <code>-v open-webui:/app/backend/data</code> 参数。这一步至关重要，因为它可以确保正确挂载数据库并防止数据丢失。</p><p><strong>如果 Ollama 在您的计算机上，请使用以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure><p><strong>如果 Ollama 在另一台服务器上，请使用以下命令：</strong></p><p>要连接到另一台服务器上的 Ollama，请将 <code>OLLAMA_API_BASE_URL</code> 更改为服务器的 URL：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=https://example.com/api -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure><p><strong>安装完成后，您可以通过 <code>http://localhost:3000</code> 访问 Open WebUI。尽情使用吧！</strong></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png&quot; alt=&quot;一行代码本地运行 AI 模型&quot;&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>国内最佳Newbing镜像!最新更新秒过人机验证!</title>
+    <link href="http://jonastech.cc/2024/02/06/AI%20era/bing/newbing/"/>
+    <id>http://jonastech.cc/2024/02/06/AI%20era/bing/newbing/</id>
+    <published>2024-02-06T10:55:44.000Z</published>
+    <updated>2024-04-03T08:01:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  2024 年重大更新 100% 免登陆 自动过验证 国内可用  支持 Openai API 格式调用。<br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/1-14/1.gif" alt="功能演示"></p><h2 id="✍️作者的开源项目"><a href="#✍️作者的开源项目" class="headerlink" title="✍️作者的开源项目"></a>✍️作者的开源项目</h2><p><a href="https://github.com/Harry-zklcdc/go-proxy-bingai#%E6%95%99%E7%A8%8B%E5%8D%81%E5%88%86%E9%87%8D%E8%A6%81">https://github.com/Harry-zklcdc/go-proxy-bingai#教程十分重要</a> </p><div class="terminal-loader" style="border: 0.1em solid #333; background-color: #1a1a1a; color: #0f0; font-family: 'Courier New', Courier, monospace; font-size: 1em; padding: 1.5em; width: 20em; margin: 100px auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); border-radius: 4px; position: relative; overflow: hidden; box-sizing: border-box;">  <!-- ... other elements ... -->  <div class="text" style="display: inline-block; white-space: nowrap; overflow: hidden; border-right: 0.2em solid green; animation: typeAndDelete 4s steps(30) infinite, blinkCursor 0.5s step-end infinite alternate; margin-top: 1.5em; max-width: 100%;">正在努力更新中...敬请期待...</div></div><style>@keyframes blinkCursor {  50% {    border-right-color: transparent;  }}@keyframes typeAndDelete {  0%,  10% {    width: 0;  }  45%,  55% {    width: 100%;  }  90%,  100% {    width: 0;  }}</style><h2 id="不想部署直接用下面的演示站点"><a href="#不想部署直接用下面的演示站点" class="headerlink" title="不想部署直接用下面的演示站点"></a>不想部署直接用下面的演示站点</h2><p>1.<a href="https://laogou-go-proxy-bingai.hf.space/">https://laogou-go-proxy-bingai.hf.space</a></p><p>2.<a href="https://xx1.laogou666.com/">https://xx1.laogou666.com/</a></p><p>3.<a href="https://harry-zklcdc-go-proxy-bingai.hf.space/">https://harry-zklcdc-go-proxy-bingai.hf.space</a></p><p>4.<a href="https://dongsiqie-bing.hf.space/">https://dongsiqie-bing.hf.space</a></p><p>5.<a href="https://dongsiqie-bingai.hf.space/">https://dongsiqie-bingai.hf.space</a></p><p>6.<a href="https://bingai.zklcdc.xyz/">https://bingai.zklcdc.xyz/</a></p><h3 id="自己挑选你想要使用的平台部署这个项目"><a href="#自己挑选你想要使用的平台部署这个项目" class="headerlink" title="自己挑选你想要使用的平台部署这个项目"></a>自己挑选<span style="text-decoration: underline wavy green;">你想要使用的平台</span>部署这个项目</h3><ul><li><p>抱脸部署：<a href="https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&visibility=public">https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&amp;visibility=public</a></p></li><li><p>抱脸部署验证服务：<a href="https://huggingface.co/spaces/zklcdc/pass?duplicate=true&visibility=public">https://huggingface.co/spaces/zklcdc/pass?duplicate=true&amp;visibility=public</a></p></li><li><p>在 Replit 部署：<a href="https://replit.com/@sanwuchengqun/Go-Proxy-BingAi?v=1">https://replit.com/@sanwuchengqun/Go-Proxy-BingAi?v=1</a></p></li><li><p>Vercel 部署：<a href="https://vercel.com/new/clone?repository-url=https://github.com/Harry-zklcdc/go-proxy-bingai">https://vercel.com/new/clone?repository-url=https://github.com/Harry-zklcdc/go-proxy-bingai</a></p><ul><li>BYPASS_SERVER &#x3D;验证服务地址</li><li>USER_KievRPSSecAuth&#x3D;在 bing 官网控制台获取</li></ul></li><li><p>Zeabur 部署：<a href="https://zeabur.com/zh-CN">https://zeabur.com/zh-CN</a></p></li></ul><h3 id="获取-Newbing-登陆-Cookie-脚本复制"><a href="#获取-Newbing-登陆-Cookie-脚本复制" class="headerlink" title="获取 Newbing 登陆 Cookie 脚本复制"></a><strong>获取 Newbing 登陆 Cookie 脚本复制</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">javascript: (function() &#123;var value = document.cookie.split(&#x27;; &#x27;).</span><br><span class="line">find(row =&gt; row.startsWith(&#x27;_U=&#x27;)).split(&#x27;=&#x27;)[1];prompt</span><br><span class="line">(&#x27;Copy to clipboard: Ctrl+C, Enter&#x27;, value);&#125;)();</span><br></pre></td></tr></table></figure><h3 id="演示站点："><a href="#演示站点：" class="headerlink" title="演示站点："></a>演示站点：</h3><ul><li><a href="https://bingai.zklcdc.xyz/">https://bingai.zklcdc.xyz</a></li></ul><h3 id="制作自己的代理"><a href="#制作自己的代理" class="headerlink" title="制作自己的代理"></a>制作自己的代理</h3><ul><li><p>首先进入<span style="color: #3491f9; "><a href="https://dash.cloudflare.com/">Cloudflare 首页</a></span>点击左侧的<strong>Workers&amp;pages</strong><br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/Desktop/58456.png" alt="Cloudflare 首页"></p></li><li><p>然后创建应用<br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115060824815.png" alt="workers 页面"></p></li><li><p>创建 workers<br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115061143596.png" alt="确认创建页面"></p></li><li><p>输入一个名字，然后点击<span style="color: #3491f9; ">蓝色</span>按钮创建</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115061615200.png"></p><ul><li>点击编辑代码开始操作<br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115062044603-20240115103949217.png"></li></ul></li><li><p>进入编辑页面后左侧点击页面图标，然后新建  <code>bjs.js</code> 和 <code>index.html</code>文件，并把下面对应的<span style="color: #3d9983; ">代码复制粘贴</span>进对应的地方<br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115062455367.png"><br><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115062607520.png"></p></li><li><p><span style="color: #ff8332; ">bjs.js 代码</span></p></li></ul><p>地址：<a href="https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/bjs.js">https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/bjs.js</a></p><p><del>- <span style="color: #ff8332; ">index.html 代码</span></del></p><p><del>地址：<a href="https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/index.html">https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/index.html</a></del></p><p>作者说可以不用加<span style="text-decoration: underline wavy red;">index.html,</span>worker.js 会自动解析，所以请略过这一步</p><ul><li>不要忘记把下面的替换掉原本的<span style="color: #ff8332; ">worker.js 代码</span>都完成后点击右上角的按钮 <strong>保存并部署</strong></li></ul><p>地址：<a href="https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/worker.js">https://github.com/Harry-zklcdc/go-proxy-bingai/blob/master/cloudflare/worker.js</a></p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115072526716.png" alt="保存并部署"></p><ul><li>最后返回创建的应用，点击<strong>触发器</strong>添加一个域名并做好 DNS 解析，点击 添加域名</li></ul><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/abnerworks.Typora/image-20240115081709448.png" alt="绑定域名"></p><p>更详细的内容可以 <a href="https://www.bilibili.com/video/BV1gK4y1c749/?spm_id_from=333.999.0.0">点击这里</a>观看我的视频</p><p>如果是为了给 Vercel 做本站支持请添加路由，这段没写呢，去翻之前视频吧…</p><h2 id="📎-参考文章"><a href="#📎-参考文章" class="headerlink" title="📎 参考文章"></a>📎 参考文章</h2><ul><li><a href="https://github.com/Harry-zklcdc/go-proxy-bingai">Harry-zklcdc 开源网站</a>.</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;  2024 年重大更新 100% 免登陆 自动过验证 国内可用  支持 Openai API 格式调用。&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>国内怎么部署go-proxy-bingai项目,Newbing镜像网站</title>
+    <link href="http://jonastech.cc/2024/02/05/AI%20era/bing/Vercel/"/>
+    <id>http://jonastech.cc/2024/02/05/AI%20era/bing/Vercel/</id>
+    <published>2024-02-05T06:27:38.087Z</published>
+    <updated>2024-02-11T23:40:58.624Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Vercel-部署"><a href="#Vercel-部署" class="headerlink" title="Vercel 部署"></a>Vercel 部署</h1><ul><li>文档作者：<a href="https://github.com/Harry-zklcdc/go-proxy-bingai">Harry-zklcdc</a></li></ul><blockquote><p>在正式进行 Vercel 部署之前请先完成「<a href="https://github.com/Harry-zklcdc/go-proxy-bingai/wiki/Cloudflare-Worker-%E9%83%A8%E7%BD%B2">Cloudflare Worker 部署</a>」, 并确保域名绑定至 Cloudflare<br>Cloudflare Worker 部署方式无法使用 <a href="https://github.com/Harry-zklcdc/go-proxy-bingai/wiki/BingAPI">BingAPI</a></p></blockquote><h2 id="1-注册账号"><a href="#1-注册账号" class="headerlink" title="1. 注册账号"></a>1. 注册账号</h2><blockquote><p>如果你已经注册账号了，可以跳过此步骤，进入下一步骤</p></blockquote><p>进入 <a href="https://vercel.com/">Vercel 官网</a>, 点击右上角的「Sign Up」按钮开始注册</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130133646673.png"></p><p>点击「Hobby」, 并填入你的用户名，然后点击「Continue」</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130133933476.png"></p><p>点击「Continue with Github」, 登录并绑定你的 Github 账号</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130134004519.png"></p><p>进入此页面，代表注册完成 🎉！</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130134401223.png"></p><h2 id="2-部署项目"><a href="#2-部署项目" class="headerlink" title="2. 部署项目"></a>2. 部署项目</h2><p>进入 Github <a href="https://github.com/Harry-zklcdc/go-proxy-bingai">项目地址</a>, 点击「Fork 按钮」</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130135009512.png"></p><p>然后点击「Create fork」按钮</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130135046269.png"></p><p>等待 fork 完成后，回到 Vercel, 找到刚才 fork 的项目，点击「Import」按钮</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130135340560.png"></p><p>在「Environment Variables」中填入<code>BYPASS_SERVER</code>, 即「人机验证服务地址」, 比如</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://zklcdc-pass.hf.space</span><br></pre></td></tr></table></figure><p>效果如下，然后点击「Add」按钮</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130140046871.png"></p><p>然后再点击「Deploy」按钮，等待部署完成，在此期间可以先完成接下来的操作</p><h2 id="3-绑定域名"><a href="#3-绑定域名" class="headerlink" title="3. 绑定域名"></a>3. 绑定域名</h2><blockquote><p>[!NOTE]</p><p>Vercel 提供的域名在中国大陆地区易遭受 DNS 污染导致无法访问，建议绑定域名</p></blockquote><p>进入 Vercel 控制台，点击项目右上方三个点，进入「Settings」设置</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130141843620.png"></p><p>然后点击「Domains」, 填入自己的域名，然后点击「Add」</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130142142471.png"></p><p>然后到 Cloudflare 控制台中添加对应的域名解析，一共两次，一次是 TXT 解析，一次是 CNAME 解析</p><p>（具体添加解析方法请出门右拐隔壁百度 or Google）</p><blockquote><p>[!NOTE]</p><p>添加解析时，请把 Cloudflare 代理打开，如下图所示</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130143004623.png"></p><h2 id="4-修改-Cloudflare-Worker-路由"><a href="#4-修改-Cloudflare-Worker-路由" class="headerlink" title="4. 修改 Cloudflare Worker 路由"></a>4. 修改 Cloudflare Worker 路由</h2><p>进入 Cloudflare Worker 控制台, 点击「触发器」, 然后点击「添加路由」</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/%E4%BF%AE%E6%94%B9%E8%B7%AF%E7%94%B11.png"></p><p>然后在路由中添加<code>刚才绑定的域名 + /sydney/*</code> 和 <code>刚才绑定的域名 + /designer/rtc/*</code>, 比如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bingai-demo.zklcdc.xyz/sydney/*</span><br><span class="line">bingai-demo.zklcdc.xyz/designer/rtc/*</span><br></pre></td></tr></table></figure><p>然后区域选择你的域名, 最后点击「添加路由」</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/%E4%BF%AE%E6%94%B9%E8%B7%AF%E7%94%B12.png"></p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG@main/LAOGOU/%E4%BF%AE%E6%94%B9%E8%B7%AF%E7%94%B13.png"></p><p>等待 Vercel 部署完成, 即可使用绑定的域名访问</p><h2 id="5-后续升级"><a href="#5-后续升级" class="headerlink" title="5. 后续升级"></a>5. 后续升级</h2><p>在 Fork 的项目地址中，点击「Sync Fork」, 等待 Vercel 自动部署完成后即可</p><p><img src="https://cdn.jsdelivr.net/gh/laogou717/IMG/LAOGOU/image-20240130144302921.png"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Vercel-部署&quot;&gt;&lt;a href=&quot;#Vercel-部署&quot; class=&quot;headerlink&quot; title=&quot;Vercel 部署&quot;&gt;&lt;/a&gt;Vercel 部署&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;文档作者：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Open-Interpreter部署教程]五分钟部署一个自己的桌面贾维斯!!!</title>
+    <link href="http://jonastech.cc/2024/01/13/Github/Open-Interpreter/"/>
+    <id>http://jonastech.cc/2024/01/13/Github/Open-Interpreter/</id>
+    <published>2024-01-13T00:47:26.563Z</published>
+    <updated>2024-04-07T01:05:16.855Z</updated>
+    
+    <content type="html"><![CDATA[<aside>⌨️ 这是一个开源再Github上的开源项目，对标Openai官方的代码解释器（高级数据分析）。</aside><blockquote><p>视频演示</p></blockquote><p><a href="https://user-images.githubusercontent.com/63927363/264166941-37152071-680d-4423-9af3-64836a6f7b60.mp4">官网视频</a></p><h1 id="工具地址"><a href="#工具地址" class="headerlink" title="工具地址"></a>工具地址</h1><blockquote><p>B站视频教程,过审后会显示在这里</p></blockquote><p><a href="https://player.bilibili.com/player.html?aid=920030181&bvid=BV1su4y1n7v4&cid=1311192101&p=1">部署演示视频</a></p><blockquote><p>Open-Interpreter 项目地址</p></blockquote><p><a href="https://github.com/KillianLucas/open-interpreter">GitHub - KillianLucas&#x2F;open-interpreter: OpenAI’s Code Interpreter in your terminal, running locally</a></p><blockquote><p>官方文档解锁更多玩法</p></blockquote><p><a href="https://docs.openinterpreter.com/">Introduction - Open Interpreter</a></p><blockquote><p>环境配置</p></blockquote><ul><li><p>配置Key</p><blockquote><p>这里以nova chat 举例</p></blockquote>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable constant_">OPENAI_API_KEY</span>  你的key</span><br></pre></td></tr></table></figure>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable constant_">OPENAI_API_BASE</span>   <span class="attr">https</span>:<span class="comment">//api.nova-oss.com/v1/chat/completions</span></span><br></pre></td></tr></table></figure></li><li><p>Python官网，你可以挑选想要安装的版本</p></li></ul><p><a href="https://www.python.org/">Welcome to Python.org</a></p><ul><li><p>视频演示的版本 3.11.6</p></li><li><p>Windows系统</p><p>  <a href="https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe"></a></p></li><li><p>MacOS系统</p><p>  <a href="https://www.python.org/ftp/python/3.11.6/python-3.11.6-macos11.pkg"></a></p></li></ul><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><blockquote><p>安装依赖</p></blockquote><p>pip install open-interpreter</p><blockquote><p>运行代码</p></blockquote><ul><li><p>正常运行</p><p>  interpreter</p></li><li><p>无需确认</p><p>  interpreter -y</p></li></ul><h1 id="📎-参考文章"><a href="#📎-参考文章" class="headerlink" title="📎 参考文章"></a>📎 参考文章</h1><ul><li><a href="https://github.com/KillianLucas/open-interpreter">KillianLucas&#x2F;open-interpreter</a></li><li><a href="https://openinterpreter.com/">The open-interpreter</a></li></ul><aside>💡 有关安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~如果觉得文章还不错可以[**点击这里**](https://www.laogou666.com/donate)给请博主喝杯饮料🥤</aside>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;aside&gt;
+⌨️ 这是一个开源再Github上的开源项目，对标Openai官方的代码解释器（高级数据分析）。
+
+&lt;/aside&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;视频演示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>逆天网友!我早晚被笑死!用AI让郭德纲用英文讲相声!</title>
+    <link href="http://jonastech.cc/2023/10/27/AI%20era/amaze/Heygen/"/>
+    <id>http://jonastech.cc/2023/10/27/AI%20era/amaze/Heygen/</id>
+    <published>2023-10-27T00:00:00.000Z</published>
+    <updated>2024-04-07T02:19:09.075Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>🤯不得不说这届网友一个比一个抽象,今天我们来看看赛博德纲郭老师。HeyGen是一个能够快速从文本生成视频的平台，通过使用AI生成的头像和声音，无需摄像机或摄制组即可创建视频。</p></blockquote></aside><h1 id="HeyGen"><a href="#HeyGen" class="headerlink" title="HeyGen"></a>HeyGen</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://app.heygen.com/guest/templates?cid=ee688d84/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://app.heygen.com/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">HeyGen</div>            <div class="tag-link-sitename"> 官网链接</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h1 id="Rask"><a href="#Rask" class="headerlink" title="Rask"></a>Rask</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://app.rask.ai/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://app.rask.ai/favicon.ico)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Rask官网</div>            <div class="tag-link-sitename"> 官网链接 支持上传字幕复制翻译</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h1 id="视频演示"><a href="#视频演示" class="headerlink" title="视频演示"></a>视频演示</h1><blockquote><p>你可以观看视频来查看这期内容</p><iframe src="//player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></blockquote><aside>💡 有关安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~如果觉得文章还不错可以请博主喝杯饮料🥤</aside>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;🤯不得不说这届网友一个比一个抽象,今天我们来看看赛博德纲郭老师。HeyGen是一个能够快速从文本生成视频的平台，通过使用AI生成的头像和声音，无需摄像机或摄制组即可创建视频。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/aside&gt;
+
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lobe Chat：开源、高性能的聊天机器人框架</title>
+    <link href="http://jonastech.cc/2023/10/26/AI%20era/mirror/LobeChat/"/>
+    <id>http://jonastech.cc/2023/10/26/AI%20era/mirror/LobeChat/</id>
+    <published>2023-10-26T00:00:00.000Z</published>
+    <updated>2024-04-03T08:01:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img.laogou717.com/file/0d23a91ad3c5cff53b436.png" alt="lobe.png"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><aside><img src="https://img.laogou717.com/file/5a18ff550bb373be2540b.png" alt="https://img.laogou717.com/file/5a18ff550bb373be2540b.png" width="40px" /> LobeChat 是一个开源的、高性能的聊天机器人框架，为开发者提供了强大的工具和功能，以便快速且有效地创建和部署聊天机器人。这个框架支持一键免费部署私人 ChatGPT/LLM 网页应用程序，为开发者带来前所未有的便捷。</aside><p><img src="https://img.laogou717.com/file/cbebb96ad6102fa9e0c66.png"></p><h1 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h1><ul><li><strong>快速部署</strong>：支持使用 Vercel 平台一键部署。</li><li><strong>精致 UI 设计</strong>：具有优雅的外观和流畅的交互效果，支持亮暗色主题。</li><li><strong>流畅的对话体验</strong>：支持流式响应和完整的 Markdown 渲染。</li><li><strong>插件支持</strong>：可安装和使用各种插件，同时支持自定义插件开发。</li><li><strong>隐私安全</strong>：所有数据保存在用户浏览器本地。</li><li><strong>自定义助手角色</strong>：允许创建和分享个性化的对话助手角色。</li><li><strong>角色市场</strong>：提供角色市场，丰富对话内容和风格。</li></ul><h1 id="用户体验"><a href="#用户体验" class="headerlink" title="用户体验"></a>用户体验</h1><p>LobeChat 为用户提供了一系列独特的功能，包括：</p><ul><li><strong>主题模式选择</strong>：提供明亮模式和暗黑模式，以及丰富的颜色定制选项。</li><li><strong>移动设备适配</strong>：针对移动设备进行了优化，支持渐进式 Web 应用（PWA）技术。</li></ul><p><img src="https://img.laogou717.com/file/11097c2d930ebfd775386.png"></p><h1 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h1><blockquote><p>官网地址和开源地址</p></blockquote><p><a href="https://chat-preview.lobehub.com/welcome#session=inbox">LobeChat</a></p><p><a href="https://github.com/lobehub/lobe-chat">Lobe Chat - 一个开源、现代设计的法学硕士&#x2F;人工智能聊天框架。支持多AI提供商（OpenAI &#x2F; Claude 3 &#x2F; Gemini &#x2F; Perplexity &#x2F; Bedrock &#x2F; Azure &#x2F; Mistral &#x2F; Ollama），多模态（Vision &#x2F; TTS）和插件系统。一键免费部署您的私人 ChatGPT 聊天应用程序。</a></p><h1 id="项目部署与环境变量"><a href="#项目部署与环境变量" class="headerlink" title="项目部署与环境变量"></a>项目部署与环境变量</h1><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><ul><li><strong>Vercel 部署</strong>：简单几步即可在 Vercel 上部署服务。[中国大陆的免费域名污染严重,需要绑定域名]</li></ul><p><a href="https://vercel.com/new/clone?repository-url=https://github.com/lobehub/lobe-chat&env=OPENAI_API_KEY&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https://platform.openai.com/account/api-keys&project-name=lobe-chat&repository-name=lobe-chat">点击在Vercel部署</a></p><ul><li><p><strong>Zeabur 部署</strong>：方便在私有设备上部署服务。但目前zeabur正在更新，会报错[中国大陆免费域名可用,无需购买域名也可以直连]</p><p>  需在变量里设置<code>EXPERIMENTAL_SERVERLESS=1</code></p><p>  <a href="https://zeabur.com/zh-CN">点击在Zeabur部署</a></p>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable constant_">OPENAI_API_KEY</span>=你的key</span><br><span class="line"><span class="variable constant_">OPENAI_PROXY_URL</span>=端点如果是官方的api可以不去填写</span><br><span class="line"><span class="variable constant_">ACCESS_CODE</span>=访问密码,如果你在变量里设置key,未来你账号的安全必须填写密码,<span class="number">6</span>位</span><br></pre></td></tr></table></figure></li></ul><h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><p>本项目提供了一些额外的配置项，使用环境变量进行设置：</p><table><thead><tr><th>环境变量</th><th>类型</th><th>描述</th><th>示例</th></tr></thead><tbody><tr><td>OPENAI_API_KEY</td><td>必选</td><td>在 OpenAI 账户页面申请的 API 密钥</td><td>sk-xxxxxx…xxxxxx</td></tr><tr><td>OPENAI_PROXY_URL</td><td>可选</td><td>如果手动配置了 OpenAI 接口代理，可用此配置项覆盖默认的 OpenAI API 请求基础 URL</td><td>默认值: <a href="https://api.openai.com/v1">https://api.openai.com/v1</a></td></tr><tr><td>ACCESS_CODE</td><td>可选</td><td>访问此服务所需的密码，应为 6 位数字或字母</td><td>awCT74 或 e3@09!</td></tr></tbody></table><h1 id="📎参考链接"><a href="#📎参考链接" class="headerlink" title="📎参考链接"></a>📎参考链接</h1><ul><li><a href="https://github.com/lobehub/lobe-chat">项目主页</a></li><li><a href="https://github.com/lobehub/lobe-chat/wiki">官方文档</a></li><li><a href="https://github.com/lobehub/lobe-chat/issues">提交问题</a></li></ul><aside>💡 有关安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~如果觉得文章还不错可以请博主喝杯饮料🥤</aside>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.laogou717.com/file/0d23a91ad3c5cff53b436.png&quot; alt=&quot;lobe.png&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>任意地区打卡钉钉蓝牙打卡时序漏洞分析</title>
+    <link href="http://jonastech.cc/2023/03/26/TBug/dingtalk/"/>
+    <id>http://jonastech.cc/2023/03/26/TBug/dingtalk/</id>
+    <published>2023-03-26T10:55:44.000Z</published>
+    <updated>2024-04-07T02:09:49.740Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://gw.alicdn.com/imgextra/i4/O1CN013OYoqp1foK6tig7lJ_!!6000000004053-2-tps-864-168.png"></p><blockquote><p>在钉钉的蓝牙打卡系统中，管理员通常设定一个特定的打卡范围，用户只能在这个范围内打卡。然而，最近发现了一个可能的漏洞：实际的打卡位置并非在用户点击打卡那一刻被确定，而是在之前的某个时刻。这一发现通过两个实际场景得到验证：一是用户在离开办公区域后，在非打卡范围内成功打卡；二是在打卡失败后，用户在离开打卡机的路上重新尝试并成功打卡。这表明钉钉的打卡位置抓取逻辑可能存在时序问题，允许用户在非规定区域打卡成功。</p></blockquote><h2 id="钉钉蓝牙打卡-Bug-分析"><a href="#钉钉蓝牙打卡-Bug-分析" class="headerlink" title="钉钉蓝牙打卡 Bug 分析"></a>钉钉蓝牙打卡 Bug 分析</h2><h4 id="正常情况下的打卡流程："><a href="#正常情况下的打卡流程：" class="headerlink" title="正常情况下的打卡流程："></a>正常情况下的打卡流程：</h4><ul><li>管理员设置特定的打卡范围。</li><li>用户必须在该范围内才能成功打卡。</li></ul><h4 id="发现的问题："><a href="#发现的问题：" class="headerlink" title="发现的问题："></a>发现的问题：</h4><ul><li><strong>钉钉打卡位置抓取逻辑异常</strong>：实际打卡位置不是在用户点击打卡的那一刻确定的。</li></ul><h4 id="场景还原："><a href="#场景还原：" class="headerlink" title="场景还原："></a>场景还原：</h4><ol><li><p><strong>下班场景：</strong></p><ul><li>时间：下午六点半，下班。</li><li>操作：<ul><li>关闭电脑，离开办公区域。</li><li>到达楼梯口附近时打开钉钉，出现打卡提醒弹窗，但未立即打卡。</li><li>继续走到楼下小区附近，此时点击之前的打卡提醒弹窗。</li></ul></li><li>结果：<strong>打卡成功</strong>。<ul><li>注意：此时的位置已经不在打卡范围内。</li><li>对照实验：同事在相同位置尝试手动打卡，无法连接到考勤机。</li></ul></li></ul></li><li><p><strong>再次尝试打卡：</strong></p><ul><li>操作：<ul><li>来到打卡机前，再次尝试打卡。</li><li>人脸识别阶段故意未露脸，导致打卡失败，但产生了打卡失败的弹窗。</li><li>未关闭弹窗，继续走到路口。</li><li>在路口点击弹窗上的“重试”按钮。</li></ul></li><li>结果：<strong>打卡成功</strong>。<ul><li>位置已不在规定的打卡范围内。</li></ul></li></ul></li></ol><h4 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h4><ul><li>钉钉的蓝牙打卡功能可能存在位置信息抓取时机的 Bug，导致实际打卡位置和用户操作时间不同步，从而使得用户在非指定区域也能成功打卡。</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Tbug" scheme="http://jonastech.cc/categories/Tbug/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>老狗自制100+综艺花字包！</title>
+    <link href="http://jonastech.cc/2021/12/23/montage/zyhz/"/>
+    <id>http://jonastech.cc/2021/12/23/montage/zyhz/</id>
+    <published>2021-12-23T15:49:20.000Z</published>
+    <updated>2024-02-05T22:51:21.642Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="老狗自制100-综艺花字包！"><a href="#老狗自制100-综艺花字包！" class="headerlink" title="老狗自制100+综艺花字包！"></a>老狗自制100+综艺花字包！</h1><p><img src="https://img.laogou717.com/file/431e663f3a6ef92b51528.jpg" alt="老狗自制100+综艺花字包！"></p><p>🔥总是觉得花字用时方恨少,本套花字包含剪映的主流样式,以及一些自制样式。[ps:目前仅支持带有旧版标题的版本]   </p><h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><h3 id="展示样式"><a href="#展示样式" class="headerlink" title="展示样式"></a>展示样式</h3><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/2df62cc3947dd8a9cccd22c113930d0bd7d406f8-2000x1124.png&w=3840&q=75" alt="封面"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/01ca3a301f1ef43ead01fb262469eac1e7b826aa-2000x795.png&w=3840&q=75" alt="贴图文件"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/1428cf29829eaf8d392be3312f9fa38a0bf9bc2a-2000x786.png&w=3840&q=75" alt="文件展示"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/882c42ffeaf57913b75b49ec381b2e84311ede8e-2000x1084.png&w=3840&q=75" alt="Pr旧版标题页面"></p><h3 id="获取地址"><a href="#获取地址" class="headerlink" title="获取地址"></a>获取地址</h3><div class="btns rounded grid5">            <a class="button no-text-decoration" href='https://pan.baidu.com/s/1C0x5SgGXGbEyFMXYni4Nsw?pwd=6666/' title='下载花字'><i class='anzhiyufont anzhiyu-icon-bolt'></i>下载花字</a><a class="button no-text-decoration" href='https://www.bilibili.com/video/BV1484y1y7jk/?spm_id_from=333.999.0.0&vd_source=b88a7cc0809f8c12510c0765d39efef7/' title='查看教程'><i class='anzhiyufont anzhiyu-icon-book'></i>查看教程</a>          </div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1链接：https://pan.baidu.com/s/1C0x5SgGXGbEyFMXYni4Nsw?pwd=6666 </span><br><span class="line">2提取码：6666 </span><br></pre></td></tr></table></figure><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul><li><a href="https://www.bilibili.com/video/BV1484y1y7jk/?spm_id_from=333.999.0.0&vd_source=b88a7cc0809f8c12510c0765d39efef7">内容介绍及使用方法</a></li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;老狗自制100-综艺花字包！&quot;&gt;&lt;a href=&quot;#老狗自制100-综艺花字包！&quot; class=&quot;headerlink&quot; title=&quot;老狗自制100+综艺花字包！&quot;&gt;&lt;/a&gt;老狗自制100+综艺花字包！&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="剪辑后期" scheme="http://jonastech.cc/categories/%E5%89%AA%E8%BE%91%E5%90%8E%E6%9C%9F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hermchats：不会封号、最好的GPT4.0、Claude3、Gemini、Midjourney聚合平台。</title>
+    <link href="http://jonastech.cc/2021/04/28/AI%20era/hermchats/"/>
+    <id>http://jonastech.cc/2021/04/28/AI%20era/hermchats/</id>
+    <published>2021-04-28T07:30:00.000Z</published>
+    <updated>2024-04-07T02:09:20.495Z</updated>
+    
+    
+    
+    
+    <category term="AI纪元" scheme="http://jonastech.cc/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网站故障说明</title>
+    <link href="http://jonastech.cc/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/"/>
+    <id>http://jonastech.cc/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/</id>
+    <published>1970-01-01T00:00:00.000Z</published>
+    <updated>2024-04-07T02:21:35.695Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="重要通知-网站域名更新与临时解决方案"><a href="#重要通知-网站域名更新与临时解决方案" class="headerlink" title="重要通知: 网站域名更新与临时解决方案"></a>重要通知: 网站域名更新与临时解决方案</h1><p>深深地向大家道歉。由于我个人的疏忽以及域名服务商处理不够积极的问题，导致我们的网站遇到了一些技术问题，这影响了您的体验。我在这里详细说明发生了什么，目前的状态，以及我们的临时解决方案。</p><h2 id="问题说明"><a href="#问题说明" class="headerlink" title="问题说明"></a>问题说明</h2><p>我们的域名 <strong>laogou717.com</strong> 在 <strong>2024年3月29日</strong> 到期。尽管我本人以为已经设置了自动续费，但事实证明，并没有。当我发现并尝试手动续费时，遗憾的是，域名并未立即恢复，反而显示为未激活状态。这导致了我们的文章及导航网站的图标，大部分无法正常显示。</p><h2 id="当前状态"><a href="#当前状态" class="headerlink" title="当前状态"></a>当前状态</h2><p>由于目前正值周末，域名服务商的国外客服尚未回复我们提交的工单。根据我的经验，这个问题可能需要 <strong>1-3天</strong> 才能得到解决。</p><p><img src="https://img.laogou717.com/file/26c7a3fc4627618fc8230.png" alt="域名未激活状态"></p><p>由于这一问题，我们的网站目前处于不完整的状态，影响了用户的正常访问。</p><p><img src="https://img.laogou717.com/file/3fe17d631e8bd4b7a7365.png" alt="网站图标加载失败"></p><h2 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案"></a>临时解决方案</h2><p>为了尽量减少这一事件对您的影响，我们已经设置了一个临时域名 <strong><a href="https://ailaogou717.zeabur.app/">ailaogou717.zeabur.app</a></strong> 以供访问。我们希望在主域名恢复之前，您能暂时使用此链接访问我们的网站。</p><p><img src="https://img.laogou717.com/file/564fc620a265fc5dcbaf3.png" alt="AI导航网站临时站点"></p><h2 id="后续措施"><a href="#后续措施" class="headerlink" title="后续措施"></a>后续措施</h2><p>我们深感抱歉因个人疏忽和服务商的处理延迟给您带来的不便。请知悉，我们正在尽一切努力解决这一问题，并将从中吸取教训，未来将进一步加强网站的稳定性和制定更周全的应急预案，避免类似情况的再次发生。</p><p>我们深知这次事件可能影响了您对我们网站的信任，但请您相信，我们全力以赴地解决问题，并始终致力于提供最佳的服务和体验。感谢您的理解与支持。</p><p>如果您有任何问题或需要进一步的帮助，请随时与我们联系。</p><p>祝好</p><p>[老狗&#x2F;JonasTech]</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;重要通知-网站域名更新与临时解决方案&quot;&gt;&lt;a href=&quot;#重要通知-网站域名更新与临时解决方案&quot; class=&quot;headerlink&quot; title=&quot;重要通知: 网站域名更新与临时解决方案&quot;&gt;&lt;/a&gt;重要通知:</summary>
+        
+      
+    
+    
+    
+    <category term="notio" scheme="http://jonastech.cc/categories/notio/"/>
+    
+    
+  </entry>
+  
+</feed>
