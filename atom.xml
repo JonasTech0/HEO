@@ -3,11 +3,11 @@
   <title>Jonas</title>
   
   <subtitle>热爱生活,追逐梦想</subtitle>
-  <link href="https://gitee.com/laogou717/jonas-tech-blog/atom.xml" rel="self"/>
+  <link href="http://blog.laogou717.com/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/laogou717/jonas-tech-blog/"/>
+  <link href="http://blog.laogou717.com/"/>
   <updated>2024-04-13T21:52:50.779Z</updated>
-  <id>https://gitee.com/laogou717/jonas-tech-blog/</id>
+  <id>http://blog.laogou717.com/</id>
   
   <author>
     <name>JonasTech</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>【小白的教程】无需服务器一键部署OneAPI? | OneAPI 部署使用指南。</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/04/14/AI%20era/OneAPI/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/04/14/AI%20era/OneAPI/</id>
+    <link href="http://blog.laogou717.com/2024/04/14/AI%20era/OneAPI/"/>
+    <id>http://blog.laogou717.com/2024/04/14/AI%20era/OneAPI/</id>
     <published>2024-04-13T21:28:00.000Z</published>
     <updated>2024-04-13T21:52:50.779Z</updated>
     
@@ -37,15 +37,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>两个免费无限制使用ChatGPT模型API！</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/04/06/AI%20era/Freegpt35/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/04/06/AI%20era/Freegpt35/</id>
+    <link href="http://blog.laogou717.com/2024/04/06/AI%20era/Freegpt35/"/>
+    <id>http://blog.laogou717.com/2024/04/06/AI%20era/Freegpt35/</id>
     <published>2024-04-06T14:55:00.000Z</published>
     <updated>2024-04-07T06:35:46.000Z</updated>
     
@@ -63,15 +63,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>🔥每天签到领取免费GPT4、Claude3免费API！</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/04/06/AI%20era/freeAPI/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/04/06/AI%20era/freeAPI/</id>
+    <link href="http://blog.laogou717.com/2024/04/06/AI%20era/freeAPI/"/>
+    <id>http://blog.laogou717.com/2024/04/06/AI%20era/freeAPI/</id>
     <published>2024-04-05T16:55:00.000Z</published>
     <updated>2024-04-11T08:46:36.000Z</updated>
     
@@ -89,15 +89,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>超低价升级开通GPT4、Claude、MJ等服务!</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/03/17/AI%20era/GPTPLUS/GPT4/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/03/17/AI%20era/GPTPLUS/GPT4/</id>
+    <link href="http://blog.laogou717.com/2024/03/17/AI%20era/GPTPLUS/GPT4/"/>
+    <id>http://blog.laogou717.com/2024/03/17/AI%20era/GPTPLUS/GPT4/</id>
     <published>2024-03-16T16:55:00.000Z</published>
     <updated>2024-04-03T08:17:42.000Z</updated>
     
@@ -115,15 +115,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>国内访问不了Vercel上绑定的域名?试试这个吧!</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/03/01/AI%20era/deploy/Vercel/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/03/01/AI%20era/deploy/Vercel/</id>
+    <link href="http://blog.laogou717.com/2024/03/01/AI%20era/deploy/Vercel/"/>
+    <id>http://blog.laogou717.com/2024/03/01/AI%20era/deploy/Vercel/</id>
     <published>2024-02-29T23:09:04.189Z</published>
     <updated>2024-04-07T02:09:12.000Z</updated>
     
@@ -140,15 +140,15 @@
     
     
     
-    <category term="建站" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/%E5%BB%BA%E7%AB%99/"/>
+    <category term="建站" scheme="http://blog.laogou717.com/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
   </entry>
   
   <entry>
     <title>一行代码本地运行 AI 模型</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/02/27/AI%20era/deploy/One-Code/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/02/27/AI%20era/deploy/One-Code/</id>
+    <link href="http://blog.laogou717.com/2024/02/27/AI%20era/deploy/One-Code/"/>
+    <id>http://blog.laogou717.com/2024/02/27/AI%20era/deploy/One-Code/</id>
     <published>2024-02-27T00:45:48.976Z</published>
     <updated>2024-02-27T00:47:02.527Z</updated>
     
@@ -166,15 +166,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>国内最佳Newbing镜像!最新更新秒过人机验证!</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/02/06/AI%20era/bing/newbing/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/02/06/AI%20era/bing/newbing/</id>
+    <link href="http://blog.laogou717.com/2024/02/06/AI%20era/bing/newbing/"/>
+    <id>http://blog.laogou717.com/2024/02/06/AI%20era/bing/newbing/</id>
     <published>2024-02-06T10:55:44.000Z</published>
     <updated>2024-04-03T08:01:30.000Z</updated>
     
@@ -191,15 +191,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>国内怎么部署go-proxy-bingai项目,Newbing镜像网站</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/02/05/AI%20era/bing/Vercel/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/02/05/AI%20era/bing/Vercel/</id>
+    <link href="http://blog.laogou717.com/2024/02/05/AI%20era/bing/Vercel/"/>
+    <id>http://blog.laogou717.com/2024/02/05/AI%20era/bing/Vercel/</id>
     <published>2024-02-05T06:27:38.087Z</published>
     <updated>2024-02-11T23:40:58.624Z</updated>
     
@@ -217,15 +217,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>Open-Interpreter部署教程]五分钟部署一个自己的桌面贾维斯!!!</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2024/01/13/Github/Open-Interpreter/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2024/01/13/Github/Open-Interpreter/</id>
+    <link href="http://blog.laogou717.com/2024/01/13/Github/Open-Interpreter/"/>
+    <id>http://blog.laogou717.com/2024/01/13/Github/Open-Interpreter/</id>
     <published>2024-01-13T00:47:26.563Z</published>
     <updated>2024-04-07T01:05:18.000Z</updated>
     
@@ -250,15 +250,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>逆天网友!我早晚被笑死!用AI让郭德纲用英文讲相声!</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2023/10/27/AI%20era/amaze/Heygen/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2023/10/27/AI%20era/amaze/Heygen/</id>
+    <link href="http://blog.laogou717.com/2023/10/27/AI%20era/amaze/Heygen/"/>
+    <id>http://blog.laogou717.com/2023/10/27/AI%20era/amaze/Heygen/</id>
     <published>2023-10-27T00:00:00.000Z</published>
     <updated>2024-04-07T02:19:10.000Z</updated>
     
@@ -280,15 +280,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>Lobe Chat：开源、高性能的聊天机器人框架</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2023/10/26/AI%20era/mirror/LobeChat/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2023/10/26/AI%20era/mirror/LobeChat/</id>
+    <link href="http://blog.laogou717.com/2023/10/26/AI%20era/mirror/LobeChat/"/>
+    <id>http://blog.laogou717.com/2023/10/26/AI%20era/mirror/LobeChat/</id>
     <published>2023-10-26T00:00:00.000Z</published>
     <updated>2024-04-03T08:01:14.000Z</updated>
     
@@ -306,15 +306,15 @@
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>任意地区打卡钉钉蓝牙打卡时序漏洞分析</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2023/03/26/TBug/dingtalk/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2023/03/26/TBug/dingtalk/</id>
+    <link href="http://blog.laogou717.com/2023/03/26/TBug/dingtalk/"/>
+    <id>http://blog.laogou717.com/2023/03/26/TBug/dingtalk/</id>
     <published>2023-03-26T10:55:44.000Z</published>
     <updated>2024-04-07T02:09:50.000Z</updated>
     
@@ -331,15 +331,15 @@
     
     
     
-    <category term="Tbug" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/Tbug/"/>
+    <category term="Tbug" scheme="http://blog.laogou717.com/categories/Tbug/"/>
     
     
   </entry>
   
   <entry>
     <title>老狗自制100+综艺花字包！</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2021/12/23/montage/zyhz/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2021/12/23/montage/zyhz/</id>
+    <link href="http://blog.laogou717.com/2021/12/23/montage/zyhz/"/>
+    <id>http://blog.laogou717.com/2021/12/23/montage/zyhz/</id>
     <published>2021-12-23T15:49:20.000Z</published>
     <updated>2024-02-05T22:51:21.642Z</updated>
     
@@ -356,30 +356,30 @@
     
     
     
-    <category term="剪辑后期" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/%E5%89%AA%E8%BE%91%E5%90%8E%E6%9C%9F/"/>
+    <category term="剪辑后期" scheme="http://blog.laogou717.com/categories/%E5%89%AA%E8%BE%91%E5%90%8E%E6%9C%9F/"/>
     
     
   </entry>
   
   <entry>
     <title>Hermchats：不会封号、最好的GPT4.0、Claude3、Gemini、Midjourney聚合平台。</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/2021/04/28/AI%20era/hermchats/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/2021/04/28/AI%20era/hermchats/</id>
+    <link href="http://blog.laogou717.com/2021/04/28/AI%20era/hermchats/"/>
+    <id>http://blog.laogou717.com/2021/04/28/AI%20era/hermchats/</id>
     <published>2021-04-28T07:30:00.000Z</published>
     <updated>2024-04-07T02:09:22.000Z</updated>
     
     
     
     
-    <category term="AI纪元" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/AI%E7%BA%AA%E5%85%83/"/>
+    <category term="AI纪元" scheme="http://blog.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
   </entry>
   
   <entry>
     <title>网站故障说明</title>
-    <link href="https://gitee.com/laogou717/jonas-tech-blog/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/"/>
-    <id>https://gitee.com/laogou717/jonas-tech-blog/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/</id>
+    <link href="http://blog.laogou717.com/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/"/>
+    <id>http://blog.laogou717.com/1970/01/01/%E5%85%AC%E5%91%8A/Malfunction/</id>
     <published>1970-01-01T00:00:00.000Z</published>
     <updated>2024-04-07T02:21:36.000Z</updated>
     
@@ -396,7 +396,7 @@
     
     
     
-    <category term="notio" scheme="https://gitee.com/laogou717/jonas-tech-blog/categories/notio/"/>
+    <category term="notio" scheme="http://blog.laogou717.com/categories/notio/"/>
     
     
   </entry>
