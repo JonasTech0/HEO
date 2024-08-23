@@ -6,7 +6,7 @@
   <link href="http://www.laogou717.com/atom.xml" rel="self"/>
   
   <link href="http://www.laogou717.com/"/>
-  <updated>2024-07-31T06:58:59.614Z</updated>
+  <updated>2024-08-23T13:49:26.238Z</updated>
   <id>http://www.laogou717.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Midjourney 网页版全面开放，免费试用！</title>
+    <link href="http://www.laogou717.com/2024/08/23/AI%20era/Midjourney/mjprompt/"/>
+    <id>http://www.laogou717.com/2024/08/23/AI%20era/Midjourney/mjprompt/</id>
+    <published>2024-08-23T07:30:00.000Z</published>
+    <updated>2024-08-23T13:49:26.238Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><blockquote><p><a href="https://www.midjourney.com/imagine">Midjourney</a> 网页版终于向<strong>所有用户开放</strong>，无需再通过候补计划。为了吸引更多用户体验他们的图像生成功能，Midjourney 推出了限时的<strong>免费试用计划</strong>。所有用户都可以免费生成多达100张AI图片。</p></blockquote><p>当然，为了帮助各位更好地<strong>利用 Midjourney</strong>，我为你整理了一些<strong>提示词编写的技巧</strong>，以及几个适合<strong>生成电影感图像</strong>的提示词示例。</p><h3 id="提示词编写技巧："><a href="#提示词编写技巧：" class="headerlink" title="提示词编写技巧："></a>提示词编写技巧：</h3><p><img src="https://img.laogou717.com/file/f10922502693a83d57ca4.png"></p><ol><li><p><strong>明确主题和细节</strong>：在提示词中包含<strong>清晰的主题</strong>和<strong>详细描述</strong>。例如，不仅仅是说“生成一个风景图”，而是具体描述为“生成一个夕阳下的森林场景，有光线透过树叶，地面覆盖着金黄色的落叶”。这种细致的描述可以帮助 Midjourney 更准确地理解你的意图。</p></li><li><p><strong>指定风格或摄影效果</strong>：在提示词中加入<strong>特定的艺术风格</strong>或<strong>摄影师的名字</strong>，可以获得更具艺术感的图像。例如，“拍摄一个在公园长椅上坐着的女人，风格为乔尔·梅耶罗维茨”。</p></li><li><p><strong>设定光线和环境</strong>：光线和环境对图像的最终效果有很大影响。你可以在提示词中指定<strong>光照条件</strong>，比如“在晨光中的大海景观，带有淡淡的雾气”和“阴天的城市街道，灯光昏暗”。</p></li><li><p><strong>利用参考案例</strong>：可以参考一些成功的提示词案例，并在此基础上提出自己的要求。例如，如果你看到某个提示词效果很好，可以在此基础上进行<strong>微调</strong>，如更改角度或添加新的元素。</p></li><li><p><strong>注意禁用词汇</strong>：避免使用 Midjourney 的<strong>禁用词汇</strong>，例如与暴力、色情、敏感话题相关的词汇，这样可以避免生成不符合要求或无法生成的图像。</p></li><li><p><strong>使用控制词条</strong>：在提示词中使用<strong>专门的控制词条</strong>可以帮助你更精确地定义生成图像的风格和内容。例如，<code>-v</code> 选择 Midjourney 的版本，<code>-ar</code> 设置图像的宽高比，<code>-s</code> 控制图像的风格化程度，<code>-chaos</code> 增加图像的随机性，<code>-no</code> 排除某些元素。</p></li></ol><h3 id="电影感提示词示例："><a href="#电影感提示词示例：" class="headerlink" title="电影感提示词示例："></a>电影感提示词示例：</h3><ol><li><strong>科幻</strong>：<code>&quot;A futuristic cityscape at night, neon lights, flying cars -v 5 -ar 16:9&quot;</code></li></ol><p><img src="https://img.laogou717.com/file/42b671945764b886f470f.png" alt="科幻"><br>2. <strong>黑色电影</strong>：<code>&quot;A shadowy alleyway, dim streetlights, noir film style -s 800&quot;</code></p><p><img src="https://img.laogou717.com/file/ec3ec0b56d287bfd92730.png" alt="黑色电影"><br>3. <strong>史诗奇幻</strong>：<code>&quot;A towering castle on a misty mountain, full moon, dark fantasy art -q 2&quot;</code></p><p><img src="https://img.laogou717.com/file/27be5618e5c5f4f5f9a4b.png" alt="史诗奇幻"></p><h3 id="关于悟空的提示词："><a href="#关于悟空的提示词：" class="headerlink" title="关于悟空的提示词："></a>关于悟空的提示词：</h3><p>在深入探讨提示词编写技巧时，我和ChatGPT也扯皮了一会,如何结合孙悟空的形象特点来生成具备写实电影感的图像。以下是一个示例提示词，说是可以生成一个具有压迫感和暗黑风格的孙悟空形象：</p><p><strong>提示词示例</strong>：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sun Wukong, the legendary Monkey King, depicted in a dark, cinematic, and photorealistic style. His fierce, golden eyes shine with an eerie glow against his shadowy, fur-covered face. The scene is illuminated with dramatic low-key lighting, emphasizing the textures of his hair and the cold, metallic sheen of his magical staff, Ruyi Jingu Bang. The setting features deep shadows and stark contrasts, with light seeping through in narrow beams, creating a mysterious and ominous atmosphere. The camera angle is a low shot, enhancing his intimidating presence, while the background is shrouded in darkness, only faintly lit to suggest an otherworldly environment.</span><br></pre></td></tr></table></figure><div class="gallery">  <div class="fj-gallery page_img_lazyload lazyload btn_album_detail_lazyload data" data-rowHeight="220" data-limit="2">    <span class="gallery-data">[{"url":"https://img.laogou717.com/file/611d0a65c44dbe81b07c9.png","alt":""},{"url":"https://img.laogou717.com/file/a44bcbae91cd3ad0a8800.png","alt":""},{"url":"https://img.laogou717.com/file/e4cedfc5036632bb54d69.png","alt":""},{"url":"https://img.laogou717.com/file/245bded4f15a6660a7634.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><h3 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h3><p><strong>提示词技巧</strong>：</p><ul><li><strong>明确主题和细节</strong>：清晰描述你想要的图像。</li><li><strong>指定风格或摄影效果</strong>：加入特定风格或艺术家的名字。</li><li><strong>设定光线和环境</strong>：控制图像的光照条件和环境。</li><li><strong>利用参考案例</strong>：在成功案例的基础上进行微调。</li><li><strong>注意禁用词汇</strong>：避免使用敏感词汇。</li><li><strong>使用控制词条</strong>：精确定义图像风格和内容。</li></ul><p><strong>链接</strong>: <a href="https://www.midjourney.com/imagine">Midjourney 官方网站</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AI纪元" scheme="http://www.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+    <category term="AI绘画" scheme="http://www.laogou717.com/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+    <category term="Midjourney" scheme="http://www.laogou717.com/tags/Midjourney/"/>
+    
+    <category term="免费" scheme="http://www.laogou717.com/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+    <category term="提示词" scheme="http://www.laogou717.com/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>一篇非常啰嗦的网站搭建教程</title>
@@ -218,7 +252,7 @@
     <link href="http://www.laogou717.com/2024/03/01/AI%20era/deploy/Vercel/"/>
     <id>http://www.laogou717.com/2024/03/01/AI%20era/deploy/Vercel/</id>
     <published>2024-02-29T23:09:04.189Z</published>
-    <updated>2024-04-07T02:09:12.000Z</updated>
+    <updated>2024-08-23T13:08:49.050Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/laogou717/IMG/main/LAOGOU/997771ac87cfc28505595c6f00f539f7ce8feced-1200x675.jpg" alt="国内访问不了Vercel上绑定的域名?试试这个吧!"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">域名的可访问性对于保障信息流通至关重要。Vercel 面临的一个问题是，</span><br><span class="line">由于中国大陆的特定网络政策，使得 vercel.com 和 vercel.app 域在中国大陆地区无法访问。</span><br></pre></td></tr></table></figure><h2 id="处理方案"><a href="#处理方案" class="headerlink" title="处理方案"></a>处理方案</h2><h3 id="调整-A-记录"><a href="#调整-A-记录" class="headerlink" title="调整 A 记录"></a>调整 A 记录</h3><ul><li>请将您的 A 记录的 IP 地址从<code>76.76.21.21</code> 更改为顶级域DNS<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">76.223.126.88</span><br></pre></td></tr></table></figure></li><li>这一更改是通过另一条网络路径来重定向流量，从而绕过现有的访问障碍。</li></ul><h3 id="更新-CNAME-记录"><a href="#更新-CNAME-记录" class="headerlink" title="更新 CNAME 记录"></a>更新 CNAME 记录</h3><ul><li><p>尽管Vercel在最新公告中宣告影响 CNAME 记录的问题已经得到解决，但还是仍然建议将 CNAME 记录从 <code>cname.vercel-dns.com</code>更改为二级域DNS</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cname-china.vercel-dns.com</span><br></pre></td></tr></table></figure></li><li><p>这一更改不仅确保了持续的访问能力，而且提供了额外的冗余性，增强了您的域名抵御未来可能出现中断的能力。</p></li></ul><h3 id="在域名注册商处添加记录"><a href="#在域名注册商处添加记录" class="headerlink" title="在域名注册商处添加记录"></a>在域名注册商处添加记录</h3><ul><li>登录您的域名注册商管理控制台。以cloudflare举例</li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/5cfe1fb3de8082b83245fb9258c91ef4042d5235-2712x1292.png&w=3840&q=75" alt="cf主页"></p><p>主页选中激活的域</p><ul><li>找到更新 DNS 记录的部分。</li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/0f83042881beed3694eec3283da0b97240e38b17-510x1060.png&w=1080&q=75" alt="dns"></p><p>左侧找到DNS服务</p><ul><li>修改 A 记录，指向 <code>76.223.126.88</code></li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/406eabf252419c67dcbbffbc85e3ea7744b2c920-2462x1128.png&w=3840&q=75" alt="A记录"></p><p>A记录</p><ul><li>将 CNAME 记录修改为 <code>cname-china.vercel-dns.com</code></li></ul><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/f9a9d2b7f63806c4f6f780f9696b4380157e0dfc-2462x1124.png&w=3840&q=75" alt="二级域"></p><p>二级域</p><ul><li>通过上述步骤，即使在中国大陆这样的特殊网络环境下，您的网站也能保持正常的访问和运行。建议您尽早完成这些更改，以确保服务不受影响😄。</li></ul>]]></content>
     
@@ -233,7 +267,7 @@
     
     
     
-    <category term="建站" scheme="http://www.laogou717.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    <category term="搭建网站" scheme="http://www.laogou717.com/categories/%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
     
     
   </entry>
@@ -408,7 +442,7 @@
     <link href="http://www.laogou717.com/2023/10/26/AI%20era/mirror/LobeChat/"/>
     <id>http://www.laogou717.com/2023/10/26/AI%20era/mirror/LobeChat/</id>
     <published>2023-10-26T00:00:00.000Z</published>
-    <updated>2024-04-03T08:01:14.000Z</updated>
+    <updated>2024-08-23T13:09:14.835Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img.laogou717.com/file/0d23a91ad3c5cff53b436.png" alt="lobe.png"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><aside><img src="https://img.laogou717.com/file/5a18ff550bb373be2540b.png" alt="https://img.laogou717.com/file/5a18ff550bb373be2540b.png" width="40px" /> LobeChat 是一个开源的、高性能的聊天机器人框架，为开发者提供了强大的工具和功能，以便快速且有效地创建和部署聊天机器人。这个框架支持一键免费部署私人 ChatGPT/LLM 网页应用程序，为开发者带来前所未有的便捷。</aside><p><img src="https://img.laogou717.com/file/cbebb96ad6102fa9e0c66.png"></p><h1 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h1><ul><li><strong>快速部署</strong>：支持使用 Vercel 平台一键部署。</li><li><strong>精致 UI 设计</strong>：具有优雅的外观和流畅的交互效果，支持亮暗色主题。</li><li><strong>流畅的对话体验</strong>：支持流式响应和完整的 Markdown 渲染。</li><li><strong>插件支持</strong>：可安装和使用各种插件，同时支持自定义插件开发。</li><li><strong>隐私安全</strong>：所有数据保存在用户浏览器本地。</li><li><strong>自定义助手角色</strong>：允许创建和分享个性化的对话助手角色。</li><li><strong>角色市场</strong>：提供角色市场，丰富对话内容和风格。</li></ul><h1 id="用户体验"><a href="#用户体验" class="headerlink" title="用户体验"></a>用户体验</h1><p>LobeChat 为用户提供了一系列独特的功能，包括：</p><ul><li><strong>主题模式选择</strong>：提供明亮模式和暗黑模式，以及丰富的颜色定制选项。</li><li><strong>移动设备适配</strong>：针对移动设备进行了优化，支持渐进式 Web 应用（PWA）技术。</li></ul><p><img src="https://img.laogou717.com/file/11097c2d930ebfd775386.png"></p><h1 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h1><blockquote><p>官网地址和开源地址</p></blockquote><p><a href="https://chat-preview.lobehub.com/welcome#session=inbox">LobeChat</a></p><p><a href="https://github.com/lobehub/lobe-chat">Lobe Chat - 一个开源、现代设计的法学硕士&#x2F;人工智能聊天框架。支持多AI提供商（OpenAI &#x2F; Claude 3 &#x2F; Gemini &#x2F; Perplexity &#x2F; Bedrock &#x2F; Azure &#x2F; Mistral &#x2F; Ollama），多模态（Vision &#x2F; TTS）和插件系统。一键免费部署您的私人 ChatGPT 聊天应用程序。</a></p><h1 id="项目部署与环境变量"><a href="#项目部署与环境变量" class="headerlink" title="项目部署与环境变量"></a>项目部署与环境变量</h1><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><ul><li><strong>Vercel 部署</strong>：简单几步即可在 Vercel 上部署服务。[中国大陆的免费域名污染严重,需要绑定域名]</li></ul><p><a href="https://vercel.com/new/clone?repository-url=https://github.com/lobehub/lobe-chat&env=OPENAI_API_KEY&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https://platform.openai.com/account/api-keys&project-name=lobe-chat&repository-name=lobe-chat">点击在Vercel部署</a></p><ul><li><p><strong>Zeabur 部署</strong>：方便在私有设备上部署服务。但目前zeabur正在更新，会报错[中国大陆免费域名可用,无需购买域名也可以直连]</p><p>  需在变量里设置<code>EXPERIMENTAL_SERVERLESS=1</code></p><p>  <a href="https://zeabur.com/zh-CN">点击在Zeabur部署</a></p>  <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable constant_">OPENAI_API_KEY</span>=你的key</span><br><span class="line"><span class="variable constant_">OPENAI_PROXY_URL</span>=端点如果是官方的api可以不去填写</span><br><span class="line"><span class="variable constant_">ACCESS_CODE</span>=访问密码,如果你在变量里设置key,未来你账号的安全必须填写密码,<span class="number">6</span>位</span><br></pre></td></tr></table></figure></li></ul><h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><p>本项目提供了一些额外的配置项，使用环境变量进行设置：</p><table><thead><tr><th>环境变量</th><th>类型</th><th>描述</th><th>示例</th></tr></thead><tbody><tr><td>OPENAI_API_KEY</td><td>必选</td><td>在 OpenAI 账户页面申请的 API 密钥</td><td>sk-xxxxxx…xxxxxx</td></tr><tr><td>OPENAI_PROXY_URL</td><td>可选</td><td>如果手动配置了 OpenAI 接口代理，可用此配置项覆盖默认的 OpenAI API 请求基础 URL</td><td>默认值: <a href="https://api.openai.com/v1">https://api.openai.com/v1</a></td></tr><tr><td>ACCESS_CODE</td><td>可选</td><td>访问此服务所需的密码，应为 6 位数字或字母</td><td>awCT74 或 e3@09!</td></tr></tbody></table><h1 id="📎参考链接"><a href="#📎参考链接" class="headerlink" title="📎参考链接"></a>📎参考链接</h1><ul><li><a href="https://github.com/lobehub/lobe-chat">项目主页</a></li><li><a href="https://github.com/lobehub/lobe-chat/wiki">官方文档</a></li><li><a href="https://github.com/lobehub/lobe-chat/issues">提交问题</a></li></ul><aside>💡 有关安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~如果觉得文章还不错可以请博主喝杯饮料🥤</aside>]]></content>
     
