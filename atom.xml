@@ -6,7 +6,7 @@
   <link href="http://www.laogou717.com/atom.xml" rel="self"/>
   
   <link href="http://www.laogou717.com/"/>
-  <updated>2024-09-28T16:00:00.000Z</updated>
+  <updated>2024-11-20T19:31:54.219Z</updated>
   <id>http://www.laogou717.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Grok2使用流程 玩转Grok-2！免费25美元额度</title>
+    <link href="http://www.laogou717.com/2024/11/20/AI%20era/grok/grok2/"/>
+    <id>http://www.laogou717.com/2024/11/20/AI%20era/grok/grok2/</id>
+    <published>2024-11-19T16:00:00.000Z</published>
+    <updated>2024-11-20T19:31:54.219Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="模型信息"><a href="#模型信息" class="headerlink" title="模型信息"></a>模型信息</h2><table><thead><tr><th>模型名(Model)</th><th>输入(Input)</th><th>输出(Output)</th><th>上下文长度 (Context)</th><th>每秒请求数 (RPS)</th><th>每分钟请求数 (RPM)</th><th>每小时请求数 (RPH)</th></tr></thead><tbody><tr><td>grok-beta</td><td>TEXT</td><td>TEXT</td><td>131072</td><td>1</td><td>60</td><td>1200</td></tr><tr><td>grok-vision-beta</td><td>TEXT&#x2F;IMAGE</td><td>TEXT</td><td>8192</td><td>1</td><td>3</td><td>60</td></tr></tbody></table><h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><p>Grok2公测地址：<a href="https://x.ai/api">https://x.ai/api</a><br>模型名称：<code>grok-beta</code>、<code>grok-vision-beta</code><br>API请求端点：<code>https://api.x.ai</code></p><h3 id="调用工具"><a href="#调用工具" class="headerlink" title="调用工具"></a>调用工具</h3><table><thead><tr><th>调用工具名称</th><th>链接</th></tr></thead><tbody><tr><td>Chatbox</td><td><a href="https://chatboxai.app/zh">https://chatboxai.app/zh</a></td></tr><tr><td>OneAPI</td><td><a href="https://github.com/songquanpeng/one-api">https://github.com/songquanpeng/one-api</a></td></tr><tr><td>LibreChat</td><td><a href="https://www.librechat.ai/">https://www.librechat.ai</a></td></tr></tbody></table><ol><li>创建 xAI 账户并获取 API 密钥</li></ol><p>首先，访问 xAI 控制台 <a href="https://x.ai/api">https://x.ai/api</a> 注册账户。完成注册后，前往“API 密钥”页面，创建新的 API 密钥。请妥善保存该密钥，并确保其安全性。 ￼</p><ol start="2"><li>请求端点</li></ol><p>xAI 的 API 基础 URL 为：</p><p><a href="https://api.x.ai/v1">https://api.x.ai/v1</a></p><p>在此基础上，您可以访问不同的端点。例如，进行聊天补全的端点为：</p><p><a href="https://api.x.ai/v1/chat/completions">https://api.x.ai/v1/chat/completions</a></p><ol start="3"><li>模型名称</li></ol><p>Grok-2 模型的名称为：</p><p>grok-beta</p><p>在 API 请求中，您需要在 model 参数中指定此名称。 ￼</p><ol start="4"><li>发送请求</li></ol><p>以下是使用 curl 发送请求的示例：</p><p>curl <a href="https://api.x.ai/v1/chat/completions">https://api.x.ai/v1/chat/completions</a> <br>  -H “Content-Type: application&#x2F;json” <br>  -H “Authorization: Bearer YOUR_XAI_API_KEY” <br>  -d ‘{<br>    “messages”: [<br>      { “role”: “system”, “content”: “You are Grok, a chatbot inspired by the Hitchhikers Guide to the Galaxy.” },<br>      { “role”: “user”, “content”: “What is the meaning of life, the universe, and everything?” }<br>    ],<br>    “model”: “grok-beta”,<br>    “stream”: false,<br>    “temperature”: 0<br>  }’</p>]]></content>
+    
+    
+    <summary type="html">玩转Grok-2！免费25美元额度</summary>
+    
+    
+    
+    <category term="AI纪元" scheme="http://www.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
+    
+    
+    <category term="AI" scheme="http://www.laogou717.com/tags/AI/"/>
+    
+    <category term="grok2" scheme="http://www.laogou717.com/tags/grok2/"/>
+    
+    <category term="马斯克" scheme="http://www.laogou717.com/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/"/>
+    
+    <category term="X" scheme="http://www.laogou717.com/tags/X/"/>
+    
+  </entry>
   
   <entry>
     <title>效率！效率！！还是TM的效率！！！</title>
@@ -332,9 +359,9 @@
     <category term="AI纪元" scheme="http://www.laogou717.com/categories/AI%E7%BA%AA%E5%85%83/"/>
     
     
-    <category term="AI" scheme="http://www.laogou717.com/tags/AI/"/>
-    
     <category term="GPT4" scheme="http://www.laogou717.com/tags/GPT4/"/>
+    
+    <category term="AI" scheme="http://www.laogou717.com/tags/AI/"/>
     
     <category term="ChatGPT" scheme="http://www.laogou717.com/tags/ChatGPT/"/>
     
@@ -624,37 +651,6 @@
     
     <category term="TBug" scheme="http://www.laogou717.com/categories/TBug/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>老狗自制100+综艺花字包！</title>
-    <link href="http://www.laogou717.com/2021/12/23/montage/zyhz/"/>
-    <id>http://www.laogou717.com/2021/12/23/montage/zyhz/</id>
-    <published>2021-12-23T15:49:20.000Z</published>
-    <updated>2024-02-05T22:51:21.642Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="老狗自制100-综艺花字包！"><a href="#老狗自制100-综艺花字包！" class="headerlink" title="老狗自制100+综艺花字包！"></a>老狗自制100+综艺花字包！</h1><p><img src="https://img.laogou717.com/file/431e663f3a6ef92b51528.jpg" alt="老狗自制100+综艺花字包！"></p><p>🔥总是觉得花字用时方恨少,本套花字包含剪映的主流样式,以及一些自制样式。[ps:目前仅支持带有旧版标题的版本]   </p><h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><h3 id="展示样式"><a href="#展示样式" class="headerlink" title="展示样式"></a>展示样式</h3><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/2df62cc3947dd8a9cccd22c113930d0bd7d406f8-2000x1124.png&w=3840&q=75" alt="封面"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/01ca3a301f1ef43ead01fb262469eac1e7b826aa-2000x795.png&w=3840&q=75" alt="贴图文件"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/1428cf29829eaf8d392be3312f9fa38a0bf9bc2a-2000x786.png&w=3840&q=75" alt="文件展示"></p><p><img src="https://lgblog.vercel.app/_next/image?url=https://cdn.sanity.io/images/cl1ktc5x/production/882c42ffeaf57913b75b49ec381b2e84311ede8e-2000x1084.png&w=3840&q=75" alt="Pr旧版标题页面"></p><h3 id="获取地址"><a href="#获取地址" class="headerlink" title="获取地址"></a>获取地址</h3><div class="btns rounded grid5">            <a class="button no-text-decoration" href='https://pan.baidu.com/s/1C0x5SgGXGbEyFMXYni4Nsw?pwd=6666/' title='下载花字'><i class='anzhiyufont anzhiyu-icon-bolt'></i>下载花字</a><a class="button no-text-decoration" href='https://www.bilibili.com/video/BV1484y1y7jk/?spm_id_from=333.999.0.0&vd_source=b88a7cc0809f8c12510c0765d39efef7/' title='查看教程'><i class='anzhiyufont anzhiyu-icon-book'></i>查看教程</a>          </div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1链接：https://pan.baidu.com/s/1C0x5SgGXGbEyFMXYni4Nsw?pwd=6666 </span><br><span class="line">2提取码：6666 </span><br></pre></td></tr></table></figure><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul><li><a href="https://www.bilibili.com/video/BV1484y1y7jk/?spm_id_from=333.999.0.0&vd_source=b88a7cc0809f8c12510c0765d39efef7">内容介绍及使用方法</a></li></ul>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;老狗自制100-综艺花字包！&quot;&gt;&lt;a href=&quot;#老狗自制100-综艺花字包！&quot; class=&quot;headerlink&quot; title=&quot;老狗自制100+综艺花字包！&quot;&gt;&lt;/a&gt;老狗自制100+综艺花字包！&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="影视后期" scheme="http://www.laogou717.com/categories/%E5%BD%B1%E8%A7%86%E5%90%8E%E6%9C%9F/"/>
-    
-    
-    <category term="Pr模板" scheme="http://www.laogou717.com/tags/Pr%E6%A8%A1%E6%9D%BF/"/>
-    
-    <category term="综艺花字" scheme="http://www.laogou717.com/tags/%E7%BB%BC%E8%89%BA%E8%8A%B1%E5%AD%97/"/>
-    
-    <category term="自制素材" scheme="http://www.laogou717.com/tags/%E8%87%AA%E5%88%B6%E7%B4%A0%E6%9D%90/"/>
     
   </entry>
   
